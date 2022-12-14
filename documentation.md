@@ -132,12 +132,11 @@ python search.py
 Pre testovanie jednotlivých častí je možné spúštať testovací skript nasledovne. 
 
 ```bash
-#usage: test.py [-h] [-t TEST] [-a ALL]
+#usage: test.py [-h] [-t TEST]
 #
 #options:
 #  -h, --help            show this help message and exit
-#  -t TEST, --test TEST  Test to run (regex | parsing | index | search | all)
-#  -a ALL, --all ALL     Run all tests
+#  -t TEST, --test TEST  Test to run (regex | parsing | index | search | runall)
 
 # Testing of regex
 python test.py -t regex
